@@ -1843,7 +1843,7 @@ footer p a:hover {
 .lab-shuffle-img {
   width: 400px;
   height: 400px;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
   display: block;
   border-radius: 10px;
@@ -1921,6 +1921,9 @@ footer p a:hover {
     font-size: 15px !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
+  }
+  .main-banner {
+    min-height: 50vh !important;
   }
   .main-banner .caption {
     width: 98% !important;
